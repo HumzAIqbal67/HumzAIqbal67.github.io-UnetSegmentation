@@ -2,9 +2,35 @@
 
 The initial stage in quantitatively analyzing microscopy images for biological and biomedical purposes frequently involves the segmentation of cell nuclei. 
 
-Here we solve this problem using Neural Networks in Keras. Specifically, we use a U-Net as invented and explained here;
+Here we solve this problem using Neural Networks in Keras with a tensorflow backend. Specifically, we use a U-Net as invented and explained here; [https://arxiv.org/abs/1505.04597](https://arxiv.org/abs/1505.04597)
 
-"There is large consent that successful training of deep networks requires many thousand annotated training samples. In this paper, we present a network and training strategy that relies on the strong use of data augmentation to use the available annotated samples more efficiently. The architecture consists of a contracting path to capture context and a symmetric expanding path that enables precise localization. We show that such a network can be trained end-to-end from very few images and outperforms the prior best method (a sliding-window convolutional network) on the ISBI challenge for segmentation of neuronal structures in electron microscopic stacks." ([https://arxiv.org/abs/1505.04597](https://arxiv.org/abs/1505.04597))
+Please visit [THIS LINK](https://humzaiqbal67.github.io/HumzAIqbal67.github.io-UnetSegmentation/Unet_Segmentation.pdf) for some discussion, analysis, and exploration of results.
 
-This project is still in the works. 
-[https://www.kaggle.com/code/keegil/keras-u-net-starter-lb-0-277/notebook](link)
+## Implmentation Details
+
+### External Packages
+This model utilizes the following external packages:
+
+<div align="center">
+
+| Package                                                                                                | Used for                               |
+|--------------------------------------------------------------------------------------------------------|----------------------------------------|
+| `numpy`, `pandas`, `tqdm`, `scikit-image`                                                              | For Data Processing                    |
+| `matplotlib`                                                                                           | For Data Visualization                 |
+| `keras`, `tensorflow`                                                                                  | To build the model                     |
+
+
+</div>
+
+### Initial Setup
+
+Download `fmodel.ipynb` and the training and testing folders. Update the PATH values in the notebook to the correct locations. Code is documented with other relevant details.
+
+Note the data is down-sampled to keep the model light. You may change this so the model uses the full dataset. If you have problems with downloading the data, you can download it directly from the [KAGGLE DATA SCIENCE BOWL](https://www.kaggle.com/competitions/data-science-bowl-2018/data). 
+
+## References
+
+Allen Goodman, Anne Carpenter, Elizabeth Park, jlefman-nvidia, Josette_BoozAllen, Kyle, Maggie, Nilofer, Peter Sedivec, Will Cukierski. (2018). 2018 Data Science Bowl . Kaggle. https://kaggle.com/competitions/data-science-bowl-2018
+
+
+
