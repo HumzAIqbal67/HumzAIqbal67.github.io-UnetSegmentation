@@ -30,13 +30,7 @@ Note the data is down-sampled to keep the model light. You may change this so th
 
 ## References
 
-@misc{data-science-bowl-2018,
-    author = {Allen Goodman, Anne Carpenter, Elizabeth Park, jlefman-nvidia, Josette_BoozAllen, Kyle, Maggie, Nilofer, Peter Sedivec, Will Cukierski},
-    title = {2018 Data Science Bowl },
-    publisher = {Kaggle},
-    year = {2018},
-    url = {https://kaggle.com/competitions/data-science-bowl-2018}
-}
+Allen Goodman, Anne Carpenter, Elizabeth Park, jlefman-nvidia, Josette_BoozAllen, Kyle, Maggie, Nilofer, Peter Sedivec, Will Cukierski. (2018). 2018 Data Science Bowl . Kaggle. https://kaggle.com/competitions/data-science-bowl-2018
 
 
 
